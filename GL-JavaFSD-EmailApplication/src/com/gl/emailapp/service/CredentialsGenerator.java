@@ -19,7 +19,7 @@ public class CredentialsGenerator {
 		String departmentShortName = getDepartmentShortName();
 		
 		String emailID = employee.getFirstName().toLowerCase()
-				+"."+ employee.getLastName().toLowerCase()
+				+ employee.getLastName().toLowerCase()
 				+"@"+ departmentShortName+".gl.com";
 		
 		this.generatedEmailID = emailID;
